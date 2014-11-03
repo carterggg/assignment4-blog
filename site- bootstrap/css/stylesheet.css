@@ -16,9 +16,12 @@ body {
 
 /* Layout */
 
+
+
 /* Module */
 
 /* State */
+
 
 /* Theme */
 
@@ -55,3 +58,15 @@ body {
    background-color:#FFF !important;
 }
 /* END OF HAMBURGER ICON */
+
+
+@media (min-width: 1025px) { 
+
+s
+
+
+.hidden-xs {
+    display:none !important;
+}
+
+}
