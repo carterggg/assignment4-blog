@@ -14,6 +14,16 @@ body {
 	
 }
 
+h3 {
+	border-bottom:#CCC solid 4px;
+	
+}
+
+h1 {
+	text-align:center;
+}
+
+
 /* Layout */
 
 #sidebar {
