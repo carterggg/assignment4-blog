@@ -1,3 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Base */
+
+
+h3 {
+	border-bottom:#CCC solid 4px;
+	
+}
