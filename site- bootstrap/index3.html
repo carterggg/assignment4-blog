@@ -1,40 +1,43 @@
 <!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business Insider</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
-    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    
-   
-    
-    <!-- NAV BAR-->
-    
-    
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Business Insider</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+<script src="js/bootstrap.min.js"></script>
 
-<div class="sticky">
-<nav class="top-bar" data-topbar role="navigation">
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="index.html">BUSINESS INSIDER</a></h1>
-    </li>
-     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-  </ul>
-  
-  
-  
-  <section class="top-bar-section">
-   
-    <ul class="left">
-      
-      <li>
+
+
+</head>
+
+<body>
+
+<!-- Main Menu Bar -->
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" rel="home" href="index.html" title="Title of website"> Business Insider
+       <!-- ADD FOR IMAGE INSTEAD OF TEXT 
        
-        <ul>
+       <img style="max-width:225px; margin-top: -5px;"
+             src="" alt="logo">   
+             
+             -->
+             
+             </a>   
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          
           <li><a href="http://www.businessinsider.com/sai">Tech</a></li>
           <li><a href="http://www.businessinsider.com/clusterstock">Finance</a></li>
           <li><a href="http://www.businessinsider.com/politics">Politics</a></li>
@@ -42,30 +45,29 @@
           <li><a href="http://www.businessinsider.com/thelife">Life</a></li>
           <li><a href="http://www.businessinsider.com/thewire">Entertainment</a></li>
           <li><a href="http://www.businessinsider.com/latest">All</a></li>
+
+          </ul>
           
-          
-        </ul>
-      </li>
-      <li class="has-form"> <div class="row collapse"> <div class="hide-for-medium-only"> <input type="text" placeholder="Search"> </div></li>
-      
-    </ul>
-  
-  
-  </nav></div>
-
-
-<br>
-</section>
-<!-- END OF NAV BAR-->
-
-
-
-
+          <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    
+    
+    <!-- END OF Main Bar -->
+    
+    
+    
     
     
     <!-- Website Content -->
     
-  
+  <div class="container-fluid">
   
 <div class="row">
 
@@ -80,10 +82,10 @@
   
   
 	<div class="row">
-		<div class="small-12 medium-12 large-12 columns">
+		<div class="col-sm-12 col-md-12 col-lg-12">
 			<h1>The REAL Reason Taylor Swift Pulled Her Songs From Spotify</h1>
   
-			<img src="http://placehold.it/900x501" alt="photo">
+			<img src="http://placehold.it/900x501" class="img-responsive" alt="photo">
   
 		</div><!-- END OF column-->
 
@@ -99,7 +101,7 @@
 		<div class="small-12 medium-6 large-8 columns">
 			<h3>What's Happening</h3><br>
   
-  			<img src="http://placehold.it/106x106" alt="Photo"><strong> Seth Rogen To Play Steve Wozniak In Steve Jobs Biopic</strong><hr>
+  			<img src="http://placehold.it/106x106" class="img-responsive" alt="Photo"><strong> Seth Rogen To Play Steve Wozniak In Steve Jobs Biopic</strong><hr>
   
 		</div><!-- END OF column-->
 
@@ -113,7 +115,7 @@
 	<div class="row">
 		<div class="small-12 medium-6 large-8 columns">
   
-  			<img src="http://placehold.it/106x106" alt="Photo"><strong> These Tech Titans Want To Launch You Into Space</strong><hr>
+  			<img src="http://placehold.it/106x106" class="img-responsive" alt="Photo"><strong> These Tech Titans Want To Launch You Into Space</strong><hr>
   
 		</div><!-- END OF column-->
   
@@ -128,7 +130,7 @@
 	<div class="row">
 		<div class="small-12 medium-6 large-8 columns">
   
-			<img src="http://placehold.it/106x106" alt="Photo"><strong> REVEALED: The Demographic Trends For Every Social Networke</strong><hr>
+			<img src="http://placehold.it/106x106" class="img-responsive" alt="Photo"><strong> REVEALED: The Demographic Trends For Every Social Networke</strong><hr>
   
 		</div><!-- END OF column-->
   
@@ -142,7 +144,7 @@
   <div class="row">
 		<div class="small-12 medium-6 large-8 columns">
   
-			<img src="http://placehold.it/106x106" alt="Photo"><strong> American Eagle Stopped Airbrushing Lingerie Models And Sales Are Soaring</strong><hr>
+			<img src="http://placehold.it/106x106" class="img-responsive" alt="Photo"><strong> American Eagle Stopped Airbrushing Lingerie Models And Sales Are Soaring</strong><hr>
   
 		</div><!-- END OF column-->
   
@@ -156,7 +158,7 @@
 <div class="row">
 		<div class="small-12 medium-6 large-8 columns">
   
-			<img src="http://placehold.it/106x106" alt="Photo"><strong> They've Finally Figured Out If Caffeine Before A Workout Is A Good Idea</strong><hr>
+			<img src="http://placehold.it/106x106" class="img-responsive" alt="Photo"><strong> They've Finally Figured Out If Caffeine Before A Workout Is A Good Idea</strong><hr>
   
 		</div><!-- END OF column-->
   
@@ -170,7 +172,7 @@
 <div class="row">
 		<div class="small-12 medium-6 large-8 columns">
   
-			<img src="http://placehold.it/106x106" alt="Photo"><strong> An Entrepreneur Is Selling San Francisco's Most Expensive Home At $39 Million</strong><hr>
+			<img src="http://placehold.it/106x106" class="img-responsive" alt="Photo"><strong> An Entrepreneur Is Selling San Francisco's Most Expensive Home At $39 Million</strong><hr>
   
 		</div><!-- END OF column-->
   
@@ -183,7 +185,7 @@
 <div class="row">
 		<div class="small-12 medium-6 large-8 columns">
   
-			<img src="http://placehold.it/106x106" alt="Photo"><strong> One Person Shot At Delaware State University In Off-Campus Residence Hall</strong><hr>
+			<img src="http://placehold.it/106x106" class="img-responsive" alt="Photo"><strong> One Person Shot At Delaware State University In Off-Campus Residence Hall</strong><hr>
   
 		</div><!-- END OF column-->
   
@@ -212,7 +214,7 @@
   
  		<div class="hide-for-small-only medium-12 large-12 columns">
 
-			<img src="http://placehold.it/400x800" alt="photo">
+			<img src="http://placehold.it/400x800" class="img-responsive" alt="photo">
             <hr>
 
 		</div><!-- END OF column -->
@@ -282,22 +284,16 @@
   
   
   
-
+</div>
   
 <!-- END OF website content -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
+
+<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js">
     </script>
-  </body>
+    
+    
+</body>
 </html>
